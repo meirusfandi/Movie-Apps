@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bumptech.glide.Glide
+import id.my.fanslab.movieapps.R
 import id.my.fanslab.movieapps.data.model.MovieDetail
 import id.my.fanslab.movieapps.data.model.Review
 import id.my.fanslab.movieapps.data.model.TvShowDetail
@@ -28,7 +30,7 @@ class DetailActivity : AppCompatActivity() {
         setContentView(binding?.root)
 
         val id =  intent.getIntExtra(ID, 0)
-        val type =  intent.getStringExtra(ID)
+        val type =  intent.getStringExtra(TYPE)
         if (type == "MOVIE") getData(id)
         else getTvShow(id)
 
@@ -139,12 +141,24 @@ class DetailActivity : AppCompatActivity() {
 
     private fun setupData(movie: MovieDetail) = with(binding){
         this!!.tvOverviewContent.text = movie.overview
-        this.tvVoteAverage.text = movie.voteAverage.toString()
+        this.tvVoteAverage.text = "Rate : ${movie.voteAverage}"
         tvReleaseDateContent.text = movie.releaseDate
+        val url: String = "https://image.tmdb.org/t/p/original/"+movie.backdropPath
+        Glide.with(this@DetailActivity)
+            .load(url)
+            .error(R.drawable.ic_profile)
+            .into(imgBackgrop)
     }
 
-    private fun setupTvData(movie: TvShowDetail) = with(binding){
-
+    private fun setupTvData(tv: TvShowDetail) = with(binding){
+        this!!.tvOverviewContent.text = tv.overview
+        this.tvVoteAverage.text = "Rate : ${tv.voteAverage}"
+        tvReleaseDateContent.text = tv.firstAirDate
+        val url: String = "https://image.tmdb.org/t/p/original/"+tv.backdropPath
+        Glide.with(this@DetailActivity)
+            .load(url)
+            .error(R.drawable.ic_profile)
+            .into(imgBackgrop)
     }
 
     override fun onDestroy() {

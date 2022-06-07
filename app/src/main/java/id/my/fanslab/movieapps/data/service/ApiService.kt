@@ -27,7 +27,7 @@ interface ApiService {
     @GET("movie/{movie_id}/reviews")
     fun getMovieReview(@Path("movie_id")movieId: Int, @Query("api_key") apiKey: String): Call<ReviewResponse>
 
-    @GET("tv/latest")
+    @GET("tv/on_the_air")
     fun getTvShow(@Query("api_key") apiKey: String): Call<TvShowResponse>
 
     @GET("tv/popular")

@@ -220,5 +220,4 @@ class MovieFragment : Fragment() {
             this.rvDiscover.visibility = View.VISIBLE
         }
     }
-
 }

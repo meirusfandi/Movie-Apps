@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_movie.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tv_show.xml" value="0.14463019250253292" />
         <entry key="app/src/main/res/layout/item_banner.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/item_movie.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/item_review.xml" value="0.20490023847939315" />
