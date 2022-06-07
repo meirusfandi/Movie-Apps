@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.activity.ProfileActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/mei_rusfandi"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pas_photo"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/pendidikan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#F2F2F2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/universitas_lampung_ilmu_komputer_2014_2019"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/sma_n_1_gadingrejo_ipa_2011_2014"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:background="#F2F2F2"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/mobile_developer_java_kotlin_flutter"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/web_developer_codeigniter_php"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/backend_developer_codeigniter_php_golang"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/pengalaman_kerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:background="#F2F2F2"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/pt_lentera_benderang_bangsa_binar_academy_project_livin_by_mandiri_at_bank_mandiri_sebagai_android_developer_11_oktober_2021_11_oktober_2022"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/dinas_cipta_karya_tata_ruang_dan_pertanahan_provinsi_dki_jakarta_sebagai_mobile_apps_developer_januari_desember_2021"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/pt_klik_digital_sinergi_sebagai_frontend_developer_februari_2020_oktober_2021"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/pt_107_sebagai_programmer_maret_2019_desember_2019"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/instagram"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/linkedin"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/linkedin"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/github"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/github"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

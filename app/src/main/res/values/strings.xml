@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Movie Apps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="reviewers_name">Reviewers Name</string>
+    <string name="review_content">Review Content</string>
+    <string name="tv_profile">Profile</string>
+    <string name="tv_dashboard">Dashboard</string>
+    <string name="tv_show">TV Show</string>
+    <string name="movie">Movie</string>
+    <string name="trending">Trending</string>
+    <string name="discover">Discover</string>
+    <string name="movie_apps">Movie Apps</string>
+    <string name="mei_rusfandi">Mei Rusfandi</string>
+    <string name="universitas_lampung_ilmu_komputer_2014_2019">Universitas Lampung - Ilmu Komputer 2014-2019</string>
+    <string name="pendidikan">Pendidikan</string>
+    <string name="sma_n_1_gadingrejo_ipa_2011_2014">SMA N 1 Gadingrejo - IPA 2011-2014</string>
+    <string name="mobile_developer_java_kotlin_flutter">Mobile Developer (Java/Kotlin/Flutter)</string>
+    <string name="web_developer_codeigniter_php">Web Developer (Codeigniter/PHP)</string>
+    <string name="backend_developer_codeigniter_php_golang">Backend Developer (Codeigniter/PHP/Golang)</string>
+    <string name="pengalaman_kerja">Pengalaman Kerja</string>
+    <string name="pt_lentera_benderang_bangsa_binar_academy_project_livin_by_mandiri_at_bank_mandiri_sebagai_android_developer_11_oktober_2021_11_oktober_2022">PT Lentera Benderang Bangsa (Binar Academy) - Project Livin by Mandiri at Bank Mandiri sebagai Android Developer 11 Oktober 2021 - 11 Oktober 2022</string>
+    <string name="dinas_cipta_karya_tata_ruang_dan_pertanahan_provinsi_dki_jakarta_sebagai_mobile_apps_developer_januari_desember_2021">Dinas Cipta Karya, Tata Ruang dan Pertanahan Provinsi DKI Jakarta sebagai Mobile Apps Developer Januari - Desember 2021</string>
+    <string name="pt_klik_digital_sinergi_sebagai_frontend_developer_februari_2020_oktober_2021">PT Klik Digital Sinergi sebagai Frontend Developer Februari 2020 - Oktober 2021</string>
+    <string name="pt_107_sebagai_programmer_maret_2019_desember_2019">PT 107 sebagai Programmer Maret 2019 - Desember 2019</string>
+    <string name="skills">Skills</string>
+    <string name="tv_average">Tv Average</string>
+    <string name="overview">Overview</string>
+    <string name="release_date">Release Date</string>
+    <string name="review">Review</string>
+</resources>
